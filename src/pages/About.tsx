@@ -4,7 +4,7 @@ import { Users, Award, Target } from "lucide-react";
 
 const About = () => {
   // Team members data
-  const teamMembers = [
+  {/*const teamMembers = [
     {
       name: "Jane Smith",
       position: "CEO & Lead Designer",
@@ -29,10 +29,10 @@ const About = () => {
       bio: "Michael ensures projects are delivered on-time and exceed client expectations.",
       image: "/lovable-uploads/d277afc3-613a-48c9-b9c1-2a820ec5be1f.png",
     },
-  ];
+  ];*/}
 
   // Awards and certifications
-  const awards = [
+ {/* const awards = [
     {
       title: "Google Partner",
       description: "Certified Google Partner with expertise in Google Ads and Analytics.",
@@ -49,7 +49,7 @@ const About = () => {
       title: "Best SEO Agency - East Africa",
       description: "Awarded for outstanding SEO results and client satisfaction.",
     },
-  ];
+  ];*/}
 
   return (
     <>
@@ -74,10 +74,10 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Founded in 2015, WebDevs started with a simple mission: to make high-quality web design and development accessible to businesses of all sizes.
+                WebDevs started with a simple mission: to make high-quality web design and development accessible to businesses of all sizes.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Over the years, we've grown from a small team of three to a full-service web agency, serving clients across East Africa and beyond. Our journey has been defined by a commitment to excellence, innovation, and customer satisfaction.
+                Over the years, we've served clients across East Africa and beyond. Our journey has been defined by a commitment to excellence, innovation, and customer satisfaction.
               </p>
               <p className="text-lg text-gray-700">
                 Today, we specialize in creating industry-specific websites that not only look great but also drive tangible business results. We're proud to have helped hundreds of businesses establish and enhance their online presence.
@@ -90,7 +90,7 @@ const About = () => {
                 className="rounded-xl shadow-xl"
               />
               <div className="absolute -bottom-8 -left-8 bg-webdevs-600 text-white p-6 rounded-lg shadow-lg">
-                <p className="text-3xl font-bold">8+ Years</p>
+                <p className="text-3xl font-bold">5+ Years</p>
                 <p>of experience</p>
               </div>
             </div>
@@ -149,7 +149,7 @@ const About = () => {
       </section>
 
       {/* Meet the Team */}
-      <section className="section-padding">
+      {/*<section className="section-padding">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-title">Meet the Team</h2>
@@ -179,10 +179,10 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Awards & Certifications */}
-      <section className="section-padding bg-gradient-to-br from-webdevs-800 to-webdevs-900 text-white">
+      {/*<section className="section-padding bg-gradient-to-br from-webdevs-800 to-webdevs-900 text-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white">
@@ -209,7 +209,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* CTA Section */}
       <CTA />

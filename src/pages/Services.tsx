@@ -19,7 +19,7 @@ const Services = () => {
         "Accessibility compliance for all users",
         "Fast loading and optimized performance",
       ],
-      image: "/lovable-uploads/a5e63c67-9512-4b35-ac21-132a268705d8.png",
+      image: "/public/lovable-uploads/webdesign2.png",
     },
     {
       id: "web-development",
@@ -34,7 +34,7 @@ const Services = () => {
         "Database design and optimization",
         "API development and third-party integrations",
       ],
-      image: "/lovable-uploads/90bb3264-7082-4eea-baf0-d8d85843d1bd.png",
+      image: "/public/lovable-uploads/webdevelopment.png",
     },
     {
       id: "seo",
@@ -49,7 +49,7 @@ const Services = () => {
         "Local SEO for businesses serving specific areas",
         "Regular reporting and performance tracking",
       ],
-      image: "/lovable-uploads/d3921895-0318-45b2-8978-84a886830b1e.png",
+      image: "/public/lovable-uploads/seo.png",
     },
     {
       id: "maintenance",
@@ -64,7 +64,7 @@ const Services = () => {
         "24/7 technical support and troubleshooting",
         "Regular website health reports",
       ],
-      image: "/lovable-uploads/1b124c57-4e05-422a-bb8e-4fd76ab40de5.png",
+      image: "/public/lovable-uploads/Webdesign.png",
     },
     {
       id: "ecommerce",
@@ -79,7 +79,7 @@ const Services = () => {
         "Product showcase and catalog management",
         "Customer account and wish list functionality",
       ],
-      image: "/lovable-uploads/48157cec-1150-40d5-8c7d-2bf6b496c874.png",
+      image: "/public/lovable-uploads/ecommerce.png",
     },
     {
       id: "integrations",
@@ -94,7 +94,7 @@ const Services = () => {
         "Social media platform connectivity",
         "Custom API development and implementation",
       ],
-      image: "/lovable-uploads/33570772-7434-4610-adac-fc92ecd19ffa.png",
+      image: "/public/lovable-uploads/customization.png",
     },
   ];
 

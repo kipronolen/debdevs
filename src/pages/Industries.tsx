@@ -25,7 +25,7 @@ const Industries = () => {
         "Build trust with professional online presence",
         "Showcase before/after results and testimonials",
       ],
-      image: "/lovable-uploads/3fff1e0f-72bc-4084-b7fe-364f6328ce51.png",
+      image: "/public/lovable-uploads/hero11.jpg",
     },
     {
       id: "healthcare",
@@ -46,7 +46,7 @@ const Industries = () => {
         "Enhance professional reputation",
         "Provide crucial information during emergencies",
       ],
-      image: "/lovable-uploads/33570772-7434-4610-adac-fc92ecd19ffa.png",
+      image: "/public/lovable-uploads/hero8.jpg",
     },
     {
       id: "ngo",
@@ -67,7 +67,7 @@ const Industries = () => {
         "Build community around your cause",
         "Reduce administrative burden with automation",
       ],
-      image: "/lovable-uploads/d277afc3-613a-48c9-b9c1-2a820ec5be1f.png",
+      image: "/public/lovable-uploads/Ngo.jpg",
     },
     {
       id: "local",
@@ -88,7 +88,7 @@ const Industries = () => {
         "Make it easy for customers to find and contact you",
         "Compete effectively with larger businesses online",
       ],
-      image: "/lovable-uploads/48157cec-1150-40d5-8c7d-2bf6b496c874.png",
+      image: "/public/lovable-uploads/local business.jpg",
     },
   ];
 
@@ -128,7 +128,7 @@ const Industries = () => {
                   alt={industry.title} 
                   className="w-full h-64 object-cover"
                 />
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                   <h3 className="text-2xl font-semibold mb-3 text-webdevs-800">{industry.title}</h3>
                   <p className="text-gray-600 mb-4">{industry.description}</p>
                   <a 

@@ -38,21 +38,21 @@ const Navigation = () => {
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Industries", path: "/industries" },
-    { name: "Portfolio", path: "/portfolio" },
     { name: "Blog", path: "/blog" },
     { name: "Contact Us", path: "/contact" },
+    {/* { name: "Portfolio", path: "/portfolio" },*/}
   ];
-
+{/*"bg-white shadow-md py-2" : "bg-transparent py-4" */}
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+        isScrolled ? "bg-[#000033] text-white shadow-md py-2" : "bg-[#000033] text-white-900 py-4"
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center z-50" onClick={closeMenu}>
           <img 
-            src="/lovable-uploads/3439c2f6-6c70-4d9e-b2ab-e78730912f4a.png" 
+            src="public/lovable-uploads/Logo3_2.png" 
             alt="WebDevs Logo" 
             className="h-10 md:h-12"
           />
@@ -67,7 +67,7 @@ const Navigation = () => {
               className={`${
                 isActive(item.path)
                   ? "text-webdevs-600 font-semibold"
-                  : `${isScrolled ? "text-gray-700" : "text-white"} hover:text-webdevs-500`
+                  : `${isScrolled ? "text-white-700" : "text-white"} hover:text-webdevs-500`
               } transition-colors duration-300`}
             >
               {item.name}
@@ -90,7 +90,7 @@ const Navigation = () => {
           {isMenuOpen ? (
             <X size={24} className={isScrolled ? "text-gray-800" : "text-white"} />
           ) : (
-            <Menu size={24} className={isScrolled ? "text-gray-800" : "text-white"} />
+            <Menu size={24} className={isScrolled ? "text-white-800" : "text-white"} />
           )}
         </button>
         

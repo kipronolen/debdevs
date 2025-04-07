@@ -4,14 +4,14 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "luc
 
 const Footer = () => {
   return (
-    <footer className="bg-webdevs-900 text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-[#000033] text-white pt-16 pb-8">
+      <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
-          <div className="space-y-4">
-            <Link to="/" className="inline-block mb-4">
+          <div className="space-y-6">
+            <Link to="/" className="inline-block mb-6">
               <img 
-                src="/lovable-uploads/d3921895-0318-45b2-8978-84a886830b1e.png" 
+                src="public\lovable-uploads\Logo3_2.png" 
                 alt="WebDevs Logo" 
                 className="h-12"
               />
@@ -43,7 +43,7 @@ const Footer = () => {
               <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
               <li><Link to="/industries" className="text-gray-300 hover:text-white transition-colors">Industries</Link></li>
-              <li><Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors">Portfolio</Link></li>
+              {/*<li><Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors">Portfolio</Link></li>*/}
               <li><Link to="/blog" className="text-gray-300 hover:text-white transition-colors">Blog</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>

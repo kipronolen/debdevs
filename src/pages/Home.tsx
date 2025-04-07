@@ -28,22 +28,22 @@ const Home = () => {
     {
       name: "Dentists & Dental Clinics",
       description: "Custom websites with appointment booking systems and patient portals.",
-      image: "/lovable-uploads/3fff1e0f-72bc-4084-b7fe-364f6328ce51.png",
+      image: "public/lovable-uploads/hero11.jpg",
     },
     {
       name: "Hospitals & Healthcare",
       description: "HIPAA-compliant websites with doctor directories and patient information systems.",
-      image: "/lovable-uploads/33570772-7434-4610-adac-fc92ecd19ffa.png",
+      image: "/public/lovable-uploads/hero8.jpg",
     },
     {
       name: "NGOs & Nonprofits",
       description: "Impactful websites with donation portals, event calendars, and volunteer sign-ups.",
-      image: "/lovable-uploads/d277afc3-613a-48c9-b9c1-2a820ec5be1f.png",
+      image: "/public/lovable-uploads/Ngo.jpg",
     },
     {
       name: "Local Businesses",
       description: "Business-boosting websites with Google My Business integration and service displays.",
-      image: "/lovable-uploads/48157cec-1150-40d5-8c7d-2bf6b496c874.png", 
+      image: "/public/lovable-uploads/local business.jpg", 
     },
   ];
 
@@ -79,31 +79,30 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-10">
-          <video 
-            className="w-full h-full object-cover"
-            autoPlay 
-            muted 
-            loop 
-            playsInline
-          >
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-programming-and-coding-language-application-development-10858-large.mp4" type="video/mp4" />
-          </video>
-          <div className="hero-overlay"></div>
-        </div>
-        
-        <div className="container mx-auto px-4 relative z-20 text-center">
+    {/* Hero Section */}
+    <section className="relative h-screen flex flex-col lg:flex-row overflow-hidden">
+      {/* Left Image Panel */}
+      <div className="lg:w-1/2 w-full h-1/2 lg:h-full relative">
+        <img 
+          src="/lovable-uploads/hero.jpg" 
+          alt="Hero" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Right Content Panel */}
+      <div className="lg:w-1/2 w-full h-1/2 lg:h-full bg-[#000033] flex items-center justify-center text-center px-6 relative z-10">
+        <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Transform Your Online Presence with Expert Web Design & Development
+            Web Design & Development
           </h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto animate-fade-in">
+          <p className="text-xl md:text-2xl text-gray-100 mb-10 animate-fade-in">
             We build industry-specific, SEO-driven websites that drive results for your business.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in">
             <Link
               to="/contact"
-              className="bg-webdevs-600 hover:bg-webdevs-700 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
+              className="bg-white text-webdevs-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
             >
               Get Your Free Consultation
             </Link>
@@ -115,7 +114,9 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
 
       {/* Why Choose Us Section */}
       <section className="section-padding bg-gray-50">
@@ -221,6 +222,7 @@ const Home = () => {
       </section>
 
       {/* Industries We Serve */}
+      
       <section className="section-padding bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
@@ -237,13 +239,16 @@ const Home = () => {
                 className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col md:flex-row card-hover animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
+
                 <div className="md:w-2/5">
                   <img 
                     src={industry.image} 
                     alt={industry.name} 
                     className="w-full h-64 md:h-full object-cover"
-                  />
-                </div>
+                  /> 
+                </div> 
+                {/* Improved version with height constraints */}
+ 
                 <div className="md:w-3/5 p-6 flex flex-col justify-center">
                   <h3 className="text-xl font-semibold mb-3 text-webdevs-800">{industry.name}</h3>
                   <p className="text-gray-600 mb-4">{industry.description}</p>
@@ -267,7 +272,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> 
 
       {/* Testimonials */}
       <section className="section-padding bg-webdevs-800 text-white">
