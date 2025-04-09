@@ -85,7 +85,7 @@ const About = () => {
             </div>
             <div className="relative animate-fade-in">
               <img 
-                src="/lovable-uploads/local business.webp" 
+                src="https://webdevs.co.ke/lovable-uploads/local business.webp" 
                 alt="WebDevs Team" 
                 className="rounded-xl shadow-xl"
               />

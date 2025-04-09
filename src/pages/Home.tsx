@@ -28,22 +28,22 @@ const Home = () => {
     {
       name: "Dentists & Dental Clinics",
       description: "Custom websites with appointment booking systems and patient portals.",
-      image: "/lovable-uploads/hero11.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero11.webp",
     },
     {
       name: "Hospitals & Healthcare",
       description: "HIPAA-compliant websites with doctor directories and patient information systems.",
-      image: "/lovable-uploads/hero8.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero8.webp",
     },
     {
       name: "NGOs & Nonprofits",
       description: "Impactful websites with donation portals, event calendars, and volunteer sign-ups.",
-      image: "/lovable-uploads/Ngo.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/Ngo.webp",
     },
     {
       name: "Local Businesses",
       description: "Business-boosting websites with Google My Business integration and service displays.",
-      image: "/lovable-uploads/local business.webp", 
+      image: "https://webdevs.co.ke/lovable-uploads/local business.webp", 
     },
   ];
 
@@ -84,7 +84,7 @@ const Home = () => {
       {/* Left Image Panel */}
       <div className="lg:w-1/2 w-full h-1/2 lg:h-full relative">
         <img 
-          src="/lovable-uploads/hero.jpg" 
+          src="https://webdevs.co.ke/lovable-uploads/hero.jpg" 
           alt="Hero" 
           className="w-full h-full object-cover"
         />

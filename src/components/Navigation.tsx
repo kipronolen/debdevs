@@ -52,7 +52,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center z-50" onClick={closeMenu}>
           <img 
-            src="/lovable-uploads/Logo4.webp" 
+            src="https://webdevs.co.ke/lovable-uploads/Logo4.webp" 
             alt="WebDevs Logo" 
             className="h-10 md:h-12"
           />

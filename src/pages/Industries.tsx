@@ -25,7 +25,7 @@ const Industries = () => {
         "Build trust with professional online presence",
         "Showcase before/after results and testimonials",
       ],
-      image: "/public/lovable-uploads/hero11.jpg",
+      image: "https://webdevs.co.ke/public/lovable-uploads/hero11.jpg",
     },
     {
       id: "healthcare",
@@ -46,7 +46,7 @@ const Industries = () => {
         "Enhance professional reputation",
         "Provide crucial information during emergencies",
       ],
-      image: "/lovable-uploads/hero8.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero8.webp",
     },
     {
       id: "ngo",
@@ -67,7 +67,7 @@ const Industries = () => {
         "Build community around your cause",
         "Reduce administrative burden with automation",
       ],
-      image: "/lovable-uploads/Ngo.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/Ngo.webp",
     },
     {
       id: "local",
@@ -88,7 +88,7 @@ const Industries = () => {
         "Make it easy for customers to find and contact you",
         "Compete effectively with larger businesses online",
       ],
-      image: "/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
     },
   ];
 

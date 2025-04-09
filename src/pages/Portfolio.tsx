@@ -12,56 +12,56 @@ const Portfolio = () => {
       category: "dental",
       description: "A modern website for a dental practice with online appointment booking and patient portal.",
       results: "50% increase in new patient appointments within 3 months.",
-      image: "/lovable-uploads/hero8.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero8.webp",
     },
     {
       title: "Metro Health Hospital",
       category: "healthcare",
       description: "A comprehensive website for a hospital with doctor directories and patient information.",
       results: "Improved user engagement by 65% and reduced phone inquiries by 40%.",
-      image: "/lovable-uploads/hero11.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero11.webp",
     },
     {
       title: "Hope Foundation",
       category: "ngo",
       description: "An inspiring website for an NGO with donation portal and volunteer sign-up.",
       results: "30% increase in online donations and 45% more volunteer applications.",
-      image: "/lovable-uploads/ngo.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/ngo.webp",
     },
     {
       title: "Local Cafe",
       category: "local",
       description: "A vibrant website for a local cafe with menu, location, and online ordering.",
       results: "25% increase in walk-in customers and 35% growth in online orders.",
-      image: "/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
     },
     {
       title: "Wellness Dental",
       category: "dental",
       description: "A patient-focused website for a dental clinic with virtual tour and service information.",
       results: "60% increase in website traffic and 45% growth in service inquiries.",
-      image: "/lovable-uploads/hero8.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero8.webp",
     },
     {
       title: "Community Hospital",
       category: "healthcare",
       description: "A user-friendly website for a community hospital with emergency information and patient resources.",
       results: "Reduced patient information calls by 50% and improved online form submissions by 70%.",
-      image: "/lovable-uploads/hero11.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/hero11.webp",
     },
     {
       title: "Environmental Trust",
       category: "ngo",
       description: "A compelling website for an environmental NGO with donation system and impact reporting.",
       results: "40% increase in recurring donations and 65% more newsletter subscribers.",
-      image: "/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
     },
     {
       title: "Downtown Retail Shop",
       category: "local",
       description: "An attractive website for a local retail shop with product catalog and local SEO optimization.",
       results: "35% increase in store visits and 50% growth in online inquiries.",
-      image: "/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
     },
   ];
   
@@ -188,7 +188,7 @@ const Portfolio = () => {
             </p>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/1b124c57-4e05-422a-bb8e-4fd76ab40de5.png" 
+                src="https://webdevs.co.ke/lovable-uploads/ngo.webp" 
                 alt="Client" 
                 className="w-16 h-16 rounded-full object-cover border-2 border-webdevs-400"
               />

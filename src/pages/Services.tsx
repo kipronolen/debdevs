@@ -19,7 +19,7 @@ const Services = () => {
         "Accessibility compliance for all users",
         "Fast loading and optimized performance",
       ],
-      image: "/public/lovable-uploads/webdesign2.png",
+      image: "https://webdevs.co.ke/lovable-uploads/webdesign2.webp",
     },
     {
       id: "web-development",
@@ -34,7 +34,7 @@ const Services = () => {
         "Database design and optimization",
         "API development and third-party integrations",
       ],
-      image: "/public/lovable-uploads/webdevelopment.png",
+      image: "https://webdevs.co.ke/lovable-uploads/webdevelopment.webp",
     },
     {
       id: "seo",
@@ -49,7 +49,7 @@ const Services = () => {
         "Local SEO for businesses serving specific areas",
         "Regular reporting and performance tracking",
       ],
-      image: "/public/lovable-uploads/seo.png",
+      image: "https://webdevs.co.ke/lovable-uploads/seo.webp",
     },
     {
       id: "maintenance",
@@ -64,7 +64,7 @@ const Services = () => {
         "24/7 technical support and troubleshooting",
         "Regular website health reports",
       ],
-      image: "/public/lovable-uploads/Webdesign.png",
+      image: "https://webdevs.co.ke/lovable-uploads/Webdesign.webp",
     },
     {
       id: "ecommerce",
@@ -79,7 +79,7 @@ const Services = () => {
         "Product showcase and catalog management",
         "Customer account and wish list functionality",
       ],
-      image: "/public/lovable-uploads/ecommerce.png",
+      image: "https://webdevs.co.ke/lovable-uploads/ecommerce.webp",
     },
     {
       id: "integrations",
@@ -94,7 +94,7 @@ const Services = () => {
         "Social media platform connectivity",
         "Custom API development and implementation",
       ],
-      image: "/public/lovable-uploads/customization.png",
+      image: "https://webdevs.co.ke/lovable-uploads/customization.webp",
     },
   ];
 
