@@ -28,22 +28,22 @@ const Home = () => {
     {
       name: "Dentists & Dental Clinics",
       description: "Custom websites with appointment booking systems and patient portals.",
-      image: "public/lovable-uploads/hero11.jpg",
+      image: "/lovable-uploads/hero11.webp",
     },
     {
       name: "Hospitals & Healthcare",
       description: "HIPAA-compliant websites with doctor directories and patient information systems.",
-      image: "/public/lovable-uploads/hero8.jpg",
+      image: "/lovable-uploads/hero8.webp",
     },
     {
       name: "NGOs & Nonprofits",
       description: "Impactful websites with donation portals, event calendars, and volunteer sign-ups.",
-      image: "/public/lovable-uploads/Ngo.jpg",
+      image: "/lovable-uploads/Ngo.webp",
     },
     {
       name: "Local Businesses",
       description: "Business-boosting websites with Google My Business integration and service displays.",
-      image: "/public/lovable-uploads/local business.jpg", 
+      image: "/lovable-uploads/local business.webp", 
     },
   ];
 

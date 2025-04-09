@@ -46,7 +46,7 @@ const Industries = () => {
         "Enhance professional reputation",
         "Provide crucial information during emergencies",
       ],
-      image: "/public/lovable-uploads/hero8.jpg",
+      image: "/lovable-uploads/hero8.webp",
     },
     {
       id: "ngo",
@@ -67,7 +67,7 @@ const Industries = () => {
         "Build community around your cause",
         "Reduce administrative burden with automation",
       ],
-      image: "/public/lovable-uploads/Ngo.jpg",
+      image: "/lovable-uploads/Ngo.webp",
     },
     {
       id: "local",
@@ -88,7 +88,7 @@ const Industries = () => {
         "Make it easy for customers to find and contact you",
         "Compete effectively with larger businesses online",
       ],
-      image: "/public/lovable-uploads/local business.jpg",
+      image: "/lovable-uploads/local business.webp",
     },
   ];
 
