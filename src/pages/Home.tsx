@@ -43,7 +43,7 @@ const Home = () => {
     {
       name: "Local Businesses",
       description: "Business-boosting websites with Google My Business integration and service displays.",
-      image: "https://webdevs.co.ke/lovable-uploads/local business.webp", 
+      image: "https://webdevs.co.ke/lovable-uploads/local_business.webp", 
     },
   ];
 

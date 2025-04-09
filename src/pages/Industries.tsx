@@ -88,7 +88,7 @@ const Industries = () => {
         "Make it easy for customers to find and contact you",
         "Compete effectively with larger businesses online",
       ],
-      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local_business.webp",
     },
   ];
 

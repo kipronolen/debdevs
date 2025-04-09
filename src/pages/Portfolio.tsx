@@ -33,7 +33,7 @@ const Portfolio = () => {
       category: "local",
       description: "A vibrant website for a local cafe with menu, location, and online ordering.",
       results: "25% increase in walk-in customers and 35% growth in online orders.",
-      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local_business.webp",
     },
     {
       title: "Wellness Dental",
@@ -54,14 +54,14 @@ const Portfolio = () => {
       category: "ngo",
       description: "A compelling website for an environmental NGO with donation system and impact reporting.",
       results: "40% increase in recurring donations and 65% more newsletter subscribers.",
-      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local_business.webp",
     },
     {
       title: "Downtown Retail Shop",
       category: "local",
       description: "An attractive website for a local retail shop with product catalog and local SEO optimization.",
       results: "35% increase in store visits and 50% growth in online inquiries.",
-      image: "https://webdevs.co.ke/lovable-uploads/local business.webp",
+      image: "https://webdevs.co.ke/lovable-uploads/local_business.webp",
     },
   ];
   
