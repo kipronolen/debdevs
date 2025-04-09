@@ -52,13 +52,13 @@ const Navigation = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center z-50" onClick={closeMenu}>
           <img 
-            src="https://webdevs.co.ke/lovable-uploads/logo5.png" 
+            src="public/lovable-uploads/logo5.png" 
             alt="WebDevs Logo" 
-            className="h-20 md:h-24 transition-transform duration-300 transform hover:scale-105"
+            className="h-16 md:h-16 transition-transform duration-300 transform hover:scale-105"
           />
         </Link>
         
-        
+
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center space-x-8">
           {navItems.map((item) => (
