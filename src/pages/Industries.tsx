@@ -25,7 +25,7 @@ const Industries = () => {
         "Build trust with professional online presence",
         "Showcase before/after results and testimonials",
       ],
-      image: "https://webdevs.co.ke/public/lovable-uploads/hero11.jpg",
+      image: "https://webdevs.co.ke/public/lovable-uploads/hero11.webp",
     },
     {
       id: "healthcare",
