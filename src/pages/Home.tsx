@@ -84,7 +84,7 @@ const Home = () => {
       {/* Left Image Panel */}
       <div className="lg:w-1/2 w-full h-1/2 lg:h-full relative">
         <img 
-          src="https://webdevs.co.ke/lovable-uploads/hero.jpg" 
+          src="https://webdevs.co.ke/lovable-uploads/hero.webp" 
           alt="Hero" 
           className="w-full h-full object-cover"
         />

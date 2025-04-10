@@ -52,9 +52,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center z-50" onClick={closeMenu}>
           <img 
-            src="public/lovable-uploads/logo5.png" 
+            src="/lovable-uploads/logo5.png" 
             alt="WebDevs Logo" 
-            className="h-16 md:h-16 transition-transform duration-300 transform hover:scale-105"
+            className="h-12 md:h-16 transition-transform duration-300 transform hover:scale-105"
           />
         </Link>
         

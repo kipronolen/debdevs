@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="space-y-6">
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="public/lovable-uploads/logo5.png" 
+                src="/lovable-uploads/logo5.png" 
                 alt="WebDevs Logo" 
-                className="h-16 md:h-16 transition-transform duration-300 transform hover:scale-105"
+                className="h-12 md:h-16 transition-transform duration-300 transform hover:scale-105"
               />
             </Link>
             <p className="text-gray-300 mb-4">
